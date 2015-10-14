@@ -34,6 +34,7 @@ TEXT
   s.require_paths = ['lib']
 
   s.add_dependency 'erubis'
+  s.add_dependency 'ast', '~> 2.1.0'
   s.add_dependency 'activesupport', '>= 2.3.18'
   s.add_dependency 'easy_translate', '>= 0.5.0'
   s.add_dependency 'term-ansicolor', '>= 1.3.2'
